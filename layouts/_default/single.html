@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article>
+<h1>{{ .Title }}</h1>
+{{ with .Date }}<time>{{ .Format "2006-01-02" }}</time>{{ end }}
+{{ with .Params.tags }}<p>{{ range . }}<code>#{{ . }}</code> {{ end }}</p>{{ end }}
+{{ .Content }}
+</article>
+{{ end }}

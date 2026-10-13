@@ -1,0 +1,7 @@
+baseURL = '/'
+languageCode = 'zh-cn'
+title = '我的博客'
+theme = ''
+
+[params]
+description = '由 HugoPad 创建的站点'
